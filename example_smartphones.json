@@ -1,5 +1,7 @@
 {
-  "shipment": "https://example.com",
+  "shipment": {
+    "link": "https://example.com" 
+  },
   "Addresses": [
     "улица Барклая, дом 444, корпус 24",
     "улица Суворова, дом 555, корпус 25"
