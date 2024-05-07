@@ -1,4 +1,4 @@
-{ "store": {
+{ 
     "book": [ 
       { "category": "reference",
         "author": "Nigel Rees",
@@ -27,5 +27,4 @@
       "color": "red",
       "price": 19.95
     }
-  }
 }
