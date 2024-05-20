@@ -1,15 +1,37 @@
+
 {
-  "Addresses": [
-    "улица Барклая, дом 444, корпус 24",
-    "улица Суворова, дом 555, корпус 25"
-  ],
-  "Information": {
-    "LJ": [
-      {"name": "Optimyss X1", "price": "$10"},
-      {"name": "Optimyss X2", "price": "$20"}
-    ],
-    "Samsung": [
-      {"name": "Galaktiko 17", "price": "$50"}
+  "store": {
+    "book": [
+      {
+        "category": "справочная литература",
+        "author": "Найджел Риз",
+        "title": "Высказывания Века",
+        "price": 8.95,
+        "images": ["AbeLincoln.png","Churchill.jpg","Thatcher.png"]
+      },
+      {
+        "category": "художественная литература",
+        "author": "Ивлин Во",
+        "title": "Меч почёта",
+        "price": 12.99,
+        "images": ["MenAtArms.png","Gentlemen.jpg","Officers.png"]
+      },
+      {
+        "category": "художественная литература",
+        "author": "Герман Мелвилл",
+        "title": "Моби Дик",
+        "isbn": "0-553-21311-3",
+        "price": 8.99,
+        "images": ["Ahab.png","Ishmael.jpg","whale.png"]
+
+      },
+      {
+        "category": "художественная литература",
+        "author": "Дж.Р.Р. Толкин",
+        "title": "Властелин Колец",
+        "isbn": "0-395-19395-8",
+        "price": 22.99
+      }
     ]
   }
 }
